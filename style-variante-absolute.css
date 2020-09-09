@@ -1,0 +1,19 @@
+.karte{
+    border: 2px solid yellow;
+    position: relative;
+    left:30%;
+}
+.bildtext{
+    position:absolute;
+    bottom: 10px;
+    margin: 0;
+    left:5%;
+    z-index:1;
+   /* text-align: center;
+    width:30%;  
+    -> auch das geht (anstelle von "left:") aber dann muss der Text auch ein width kriegen sonst ist es nur so lang wie die buchstaben und wäre nicht mittig im bild; das text-align wäre dann nur in dem kleinen kästchen*/
+    font-size: 3vw; /*das ist responsive schrift (mitwachsend und schrumpfend, wie das Bild)*/
+}
+.image{
+    width: 30%; /*hier nimmt es 30% von der Mutter "karte" und wächst/schrumpft dann immer mit-> responsive*/
+}
